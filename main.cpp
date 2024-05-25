@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
                 break;
             }
             case PREPARED_UNRECOGNIZED:{
-                printf("预料之外地关键字从'%s'开始.\n",input_buffer->buffer);
+                printf("预料之外的关键字从'%s'开始.\n",input_buffer->buffer);
                 continue;
                 break;
             }
